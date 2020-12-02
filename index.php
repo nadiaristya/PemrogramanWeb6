@@ -36,22 +36,22 @@ function connection() {
         <div class="grid_12" style="background-color: #CCCCCC; border: 5px solid #132951;">
             <h2>Formal Education</h2>
             <form id="formMhs" method="POST">
- <table>
-  <tr>
-   <td>Institution</td>
-   <td><input type="text" name="edu_name" id="edu_name"></td>
-  </tr>
-  <tr>
-   <td>Year</td>
-   <td><input type="text" name="edu_year" id="edu_year"></td>
-  </tr>
-  <tr>
-   <td></td>
-   <td>
-    <input type="submit" name="simpan" id="simpan" value="Simpan">
-   </td>
-  </tr>
- </table>
+            <table>
+            <tr>
+            <td>Institution</td>
+            <td><input type="text" name="edu_name" id="edu_name"></td>
+            </tr>
+            <tr>
+            <td>Year</td>
+            <td><input type="text" name="edu_year" id="edu_year"></td>
+            </tr>
+            <tr>
+            <td></td>
+            <td>
+                <input type="submit" name="simpan" id="simpan" value="Simpan">
+            </td>
+            </tr>
+            </table>
 </form>
 <div id="status"></div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
